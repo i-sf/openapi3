@@ -81,3 +81,10 @@ def float_validation_expanded():
     Provides the float-validation.yaml spec
     """
     yield _get_parsed_yaml("float-validation.yaml")
+
+
+def obj_example_expanded():
+    """
+    Provides the obj-example.yaml spec
+    """
+    yield _get_parsed_yaml("obj-example.yaml")
